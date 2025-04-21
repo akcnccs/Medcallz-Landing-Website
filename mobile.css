@@ -1,0 +1,195 @@
+@media (max-width: 768px) {
+
+  
+    /* Hero Section */
+    .hero {
+      background: url('images/frame 1.jpg') center center / cover no-repeat;
+      height: auto;
+    }
+  
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    .top-nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo {
+      width: 130px;
+      margin-bottom: 10px;
+    }
+  
+    .nav-options select {
+      margin: 5px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      border: none;
+    }
+  
+    .hero-text {
+      text-align: center;
+      margin: 40px 0;
+    }
+  
+    .hero-text h1 {
+      font-size: 1.5rem;
+      color: white;
+    }
+  
+    .hero-text p {
+      font-size: 1rem;
+      color: white;
+      margin-bottom: 20px;
+    }
+  
+    .buttons .btn {
+      display: block;
+      padding: 10px 16px;
+      margin: 5px;
+      border-radius: 10px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  
+    .primary {
+        background-color: #007bff;
+        color: white;
+      }
+    
+      .secondary {
+        background-color: white;
+        color: #007bff;
+        border: 2px solid #007bff;
+      }
+  
+    /* Info Sections */
+    .info-section {
+      padding: 30px 20px;
+    }
+  
+    .info-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .info-text h2 {
+      font-size: 1.4rem;
+      color: #003366;
+      margin-bottom: 10px;
+    }
+  
+    .info-text ul {
+      padding-left: 20px;
+    }
+  
+    .info-text ul li {
+      font-size: 0.95rem;
+      margin-bottom: 8px;
+    }
+  
+    .info-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+    }
+  
+    /* Virtual Medical Agent */
+    .her-section {
+      background: url('images/image.ai.jpg') center center / cover no-repeat;
+      width: 373px;
+      height: 421px;
+      margin: 30px 20px;
+    }
+  
+    .her-content {
+      text-align: center;
+      color: white;
+      max-width: 100%;
+    }
+  
+    .her-content p {
+        padding: 170px;
+    }
+  
+    .cta-btn {
+      background-color: #007bff;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  
+    /* Partners */
+    @media (max-width: 768px) {
+        .logos-wrapper::-webkit-scrollbar {
+          display: block;
+        }
+        .logos-wrapper {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+        }
+      }
+      
+    /* Footer */
+    .footer {
+      background-color: #042744;
+      color: white;
+      padding: 30px 20px;
+    }
+  
+    .footer-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .footer-brand img {
+      width: 120px;
+      margin-bottom: 10px;
+    }
+  
+    .footer-column h4 {
+      margin-bottom: 8px;
+    }
+  
+    .footer-column ul {
+      list-style: none;
+      padding-left: 0;
+    }
+  
+    .footer-column ul li {
+      margin-bottom: 5px;
+    }
+  
+    .footer-column a {
+      color: #b0d3ef;
+      text-decoration: none;
+    }
+  
+    .footer-bottom {
+      text-align: center;
+      margin-top: 20px;
+      border-top: 1px solid #215174;
+      padding-top: 10px;
+    }
+  
+    .footer-lang select {
+      margin-top: 10px;
+      padding: 6px;
+      border-radius: 6px;
+      border: none;
+    }
+  }
+
+  
+  
